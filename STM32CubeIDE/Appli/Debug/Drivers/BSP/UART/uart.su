@@ -1,0 +1,2 @@
+E:/Software_Package/Drivers/BSP/UART/uart.c:40:6:uart_init	16	static
+E:/Software_Package/Drivers/BSP/UART/uart.c:103:5:__io_putchar	16	static

@@ -1,0 +1,12 @@
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_NN_interface.h:589:26:LL_Buffer_len	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:81:6:app_run	56	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:101:13:app_camera_display_pipe_vsync_cb	8	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:106:13:app_camera_display_pipe_frame_cb	8	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:112:13:app_camera_nn_pipe_frame_cb	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:124:13:nn_thread_entry	72	static,ignoring_inline_asm
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:171:13:pp_thread_entry	96	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:203:13:dp_thread_entry	288	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:223:13:isp_thread_entry	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:233:16:app_clamp_point	24	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:264:13:app_display_detection	64	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app.c:292:13:app_display_network_output	48	static

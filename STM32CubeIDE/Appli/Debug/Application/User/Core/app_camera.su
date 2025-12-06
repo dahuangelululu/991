@@ -1,0 +1,12 @@
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:37:6:app_camera_init	48	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:73:6:app_camera_display_pipe_start	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:78:6:app_camera_display_pipe_set_address	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:83:6:app_camera_nn_pipe_start	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:88:6:app_camera_nn_pipe_set_address	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:93:6:app_camera_isp_update	8	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:98:13:app_camera_display_pipe_init	64	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:114:13:app_camera_nn_pipe_init	64	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:130:13:app_camera_init_crop_config	40	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:146:19:MX_DCMIPP_ClockConfig	416	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:164:5:CMW_CAMERA_PIPE_VsyncEventCallback	16	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_camera.c:184:5:CMW_CAMERA_PIPE_FrameEventCallback	16	static

@@ -1,0 +1,10 @@
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:57:20:_disable_preemption	24	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:75:20:_enable_preemption	32	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:114:6:aton_osal_threadx_init	16	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:141:6:aton_osal_threadx_deinit	16	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:165:6:aton_osal_threadx_pb_lock	24	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:223:6:aton_osal_threadx_pb_unlock	32	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:282:6:aton_osal_threadx_wfe	16	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:293:6:aton_osal_threadx_signal_event	16	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:304:6:aton_osal_threadx_lock	16	static
+E:/Software_Package/Middlewares/AI/Npu/ll_aton/ll_aton_osal_threadx.c:315:6:aton_osal_threadx_unlock	16	static

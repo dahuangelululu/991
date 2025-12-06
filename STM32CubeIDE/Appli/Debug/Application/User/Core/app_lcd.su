@@ -1,0 +1,5 @@
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_lcd.c:32:6:app_lcd_init	64	static,ignoring_inline_asm
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_lcd.c:67:10:app_lcd_get_bg_buffer	4	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_lcd.c:72:6:app_lcd_switch_bg_buffer	8	static
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_lcd.c:81:6:app_lcd_draw_area_update	8	static,ignoring_inline_asm
+E:/Software_Package/Projects/99_Applications/991_AI_People_Detection/Appli/Core/Src/app_lcd.c:88:6:app_lcd_draw_area_commit	24	static,ignoring_inline_asm
