@@ -32,7 +32,8 @@
 
 typedef struct {
     int32_t nb_detect;
-    od_pp_outBuffer_t detects[AI_OBJDETECT_YOLOV2_PP_MAX_BOXES_LIMIT];
+       od_pp_outBuffer_t detects[APP_PP_MAX_BOXES_LIMIT];
+    //od_pp_outBuffer_t detects[AI_OBJDETECT_YOLOV2_PP_MAX_BOXES_LIMIT];
     uint32_t nn_period_ms;
     uint32_t inf_ms;
     uint32_t pp_ms;
@@ -170,7 +171,8 @@ static VOID nn_thread_entry(ULONG id)
 
 static VOID pp_thread_entry(ULONG id)
 {
-    yolov2_pp_static_param_t pp_params;
+    custom_yolov5_lmk_static_param_t pp_params;
+    //yolov2_pp_static_param_t pp_params;
     uint8_t *output_buffer;
     od_pp_out_t pp_output;
     uint32_t nn_pp[2];

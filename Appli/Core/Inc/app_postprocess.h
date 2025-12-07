@@ -42,6 +42,7 @@ extern "C"
 #include "iseg_pp_output_if.h"
 #include "sseg_deeplabv3_pp_if.h"
 #include "sseg_pp_output_if.h"
+#include <stdint.h>
 
 #define POSTPROCESS_OD_YOLO_V2_UF       (10) /* Yolov2 postprocessing; Input model: uint8; output: float32         */
 #define POSTPROCESS_OD_YOLO_V5_UU       (11) /* Yolov5 postprocessing; Input model: uint8; output: uint8           */
@@ -54,6 +55,17 @@ extern "C"
 #define POSTPROCESS_SPE_MOVENET_UF      (22) /* Movenet postprocessing; Input model: uint8; output: float32        */
 #define POSTPROCESS_ISEG_YOLO_V8_UI     (30) /* Yolov8 Seg postprocessing; Input model: uint8; output: int8        */
 #define POSTPROCESS_SSEG_DEEPLAB_V3_UF  (40) /* Deeplabv3 Seg postprocessing; Input model: uint8; output: float32  */
+
+#define POSTPROCESS_OD_CUSTOM_YOLOV5_LANDMARK (100) /* Custom Yolov5 + 4-point landmark; Input model: float32 output */
+
+typedef struct
+{
+  float conf_threshold;
+  float iou_threshold;
+  int32_t total_boxes;
+  int32_t max_boxes_limit;
+  int32_t nb_classes;
+} custom_yolov5_lmk_static_param_t;
 
 /* Exported functions ------------------------------------------------------- */
 int32_t app_postprocess_init(void *params_postprocess);

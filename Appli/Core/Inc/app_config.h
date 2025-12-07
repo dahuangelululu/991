@@ -42,13 +42,28 @@
 #define NN_HEIGHT                               224
 #define NN_FORMAT                               DCMIPP_PIXEL_PACKER_FORMAT_RGB888_YUV444_1
 #define NN_BPP                                  3
-#define NN_BUFFER_OUT_SIZE                      5880
+#define NN_BUFFER_OUT_SIZE                      596256
 #define NN_CLASSES                              2
 #define NN_CLASSES_TABLE                        {"person", "not_person"}
 
-#define POSTPROCESS_TYPE                        POSTPROCESS_OD_YOLO_V2_UF
-#define AI_OBJDETECT_YOLOV2_PP_CONF_THRESHOLD   0.6f
-#define AI_OBJDETECT_YOLOV2_PP_IOU_THRESHOLD    0.3f
-#define AI_OBJDETECT_YOLOV2_PP_MAX_BOXES_LIMIT  10
+//#define POSTPROCESS_TYPE                        POSTPROCESS_OD_YOLO_V2_UF
+//#define AI_OBJDETECT_YOLOV2_PP_CONF_THRESHOLD   0.6f
+//#define AI_OBJDETECT_YOLOV2_PP_IOU_THRESHOLD    0.3f
+//#define AI_OBJDETECT_YOLOV2_PP_MAX_BOXES_LIMIT  10
+
+#define POSTPROCESS_TYPE                        POSTPROCESS_OD_CUSTOM_YOLOV5_LANDMARK
+
+/* 自定义 YOLOv5+4 点关键点后处理参数 */
+#define AI_CUSTOM_YOLOV5_PP_TOTAL_BOXES         10647
+#define AI_CUSTOM_YOLOV5_PP_MAX_BOXES_LIMIT     50
+#define AI_CUSTOM_YOLOV5_PP_CONF_THRESHOLD      0.30f
+#define AI_CUSTOM_YOLOV5_PP_IOU_THRESHOLD       0.45f
+
+/* 兼容旧流程的通用最大检测框宏（用于显示缓存大小） */
+#if POSTPROCESS_TYPE == POSTPROCESS_OD_CUSTOM_YOLOV5_LANDMARK
+#define APP_PP_MAX_BOXES_LIMIT                  AI_CUSTOM_YOLOV5_PP_MAX_BOXES_LIMIT
+#else
+#define APP_PP_MAX_BOXES_LIMIT                  AI_OBJDETECT_YOLOV2_PP_MAX_BOXES_LIMIT
+#endif
 
 #endif
